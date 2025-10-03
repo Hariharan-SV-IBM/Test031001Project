@@ -8,17 +8,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="TPP01">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">03-10-2025 05:00:08 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-10-03T05:00:14.789497216Z</value>
+  <value name="lastUpdated">2025-10-03T05:05:11.229904468Z</value>
   <value name="wmProjectId">fl900df65a40b873e7edac11</value>
   <value name="creator">Hariharan SV</value>
 </Values>
